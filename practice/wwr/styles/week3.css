@@ -1,0 +1,12 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+.lightgrey {background-color: rgb(202, 202, 202)}
+
+#my-name{
+    color:green;
+    background-color: rgb(202, 202, 202);
+    padding: 8px;
+}
