@@ -1,0 +1,26 @@
+body{
+    background-color: skyblue;
+}
+.white-text{
+    color:white;
+}
+img{
+    width: 20%
+
+}
+.centered{
+    text-align: center;
+}
+ol{
+    text-align: left;
+    width: 330px;
+    margin: 0 auto;
+}
+.squish{
+    width: 400px;
+    margin: 0 auto;
+}
+main{
+    max-width: 600px;
+    margin: 0 auto
+}
