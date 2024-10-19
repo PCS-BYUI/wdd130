@@ -1,3 +1,5 @@
+@import url("'https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'://fonts.googleapis.com/'https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap'css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
 #content{
     max-width: 1600px;
     margin: 0 auto
@@ -10,12 +12,15 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding:35px;
 }
 #hero-msg h1{
     text-align: center;
 }
 #hero-msg h4{
     text-align: center;
+    margin-bottom: 20px;
+    font-family: "Archivo Narrow", Times, serif;
 }
 .button-box{
     text-align: center;
@@ -25,6 +30,10 @@ main section{
 }
 body{
     background-color: #4B5F7F;
+    font-size: 22px;
+    font-family: "EB Garamond", Times, serif;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #7d9c88;
@@ -36,12 +45,18 @@ nav a:hover{
 .book{
     background-color: #7d9c88;
     color:white;
-    text-decoration: none
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #7d9c88;
     color:white;
-    text-decoration: none
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: goldenrod;
@@ -54,22 +69,32 @@ nav a:hover{
 .msg{
     background-color: #4B5F7F;
     color:white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #7d9c88;
     color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:white;
+    font-size: 2em;
+    font-family: "Archivo Narrow", Times, serif;
+    margin-top: 10px;
 }
 h4{
     color:white;
 }
 .msg h2{
     color:white;
+    font-family: "Archivo Narrow", Times, serif;
 }
 .msg p{
     color:white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color:white;
@@ -83,6 +108,7 @@ h2{
 }
 .icon{
     width:80px;
+    padding-top: 10px
 }
 .logo{
     width: 80px;
@@ -92,4 +118,26 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Archivo Narrow", Times, serif;
+    margin: 0
+}
+p1, p2, p3, p4{
+    font-family: "EB Garamond", Times, serif;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }

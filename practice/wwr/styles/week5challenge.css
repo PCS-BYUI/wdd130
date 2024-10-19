@@ -1,0 +1,18 @@
+#header{
+    width: 1200px;
+}
+body{
+    margin: 0
+}
+div{
+    width: 1200px;
+    text-align: center;
+    background-color: gray;
+}
+.pics{
+    width: 250px;
+    margin: 50px;
+    border-radius: 200px ;
+    padding: 20px;
+    background-color: rgb(68, 67, 67);
+}
