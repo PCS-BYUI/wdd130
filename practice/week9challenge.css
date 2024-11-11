@@ -1,0 +1,28 @@
+body{
+    background-color: darkgray;
+}
+.blog-post{
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-self: center;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+}
+.blog-stats{
+    display: grid;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px grey;
+    background-color: steelblue;
+    justify-items: center;
+    border-radius: 10px;
+    color:white
+}
+img{
+    width: 300px;
+}
+p2{
+    color: steelblue;
+}
