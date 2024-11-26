@@ -35,16 +35,17 @@ body {
   font-size: 18px;
   text-align: center;
 }
-.bodyimgr {
+.bodyimg1{
   border-radius: 10px;
   grid-column: 4/5;
   margin: 20px auto;
 }
 
-.bodyimgl{
+.bodyimg2{
   border-radius: 10px;
   grid-column: 1/2;
   margin: 20px auto;
+  max-height: 256px ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -191,7 +192,7 @@ nav a:hover {
     max-width: 150px;
     border-radius: 75px;
 }
-#banner{
+.banner{
   width: 100%;
   margin: 0 auto;
   display: block;
@@ -199,14 +200,14 @@ nav a:hover {
   grid-column: 1/5;
 }
 
-.textboxl{
+.textbox1{
   border: 2px solid black;
   margin: 20px;
   grid-column: 1/4;
   align-content: center;
 }
 
-.textboxr{
+.textbox2{
   border: 2px solid black;
   margin: 20px;
   grid-column: 2/5;
