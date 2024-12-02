@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 Component Activity</title>
+    <link rel="stylesheet" href="wwr/styles/week12.css">
+</head>
+<body>
+    <h1>Weapons Systems of Destiny 2</h1>
+    <button class="accordion">Kinetic Weapons</button>
+<div class="panel">
+  <p>Kinetic weapons in Destiny 2 are the primary tools for dealing damage using physical projectiles, such as bullets or slugs. These weapons do not rely on elemental energy, meaning they deal standard damage and are versatile across all types of combat situations. Kinetic weapons include a wide range of firearms, from hand cannons to sniper rifles, and are often favored for their consistency and ability to target enemy weaknesses. Players use kinetic weapons when elemental types are not required or when facing enemies without elemental shields.</p>
+</div>
+
+<button class="accordion">Energy Weapons</button>
+<div class="panel">
+  <p>Energy weapons in Destiny 2 harness the power of elemental damage, such as Arc, Solar, and Void. These weapons are essential for breaking through elemental shields or dealing additional elemental effects, like burning or shocking enemies. Energy weapons come in a variety of forms, such as pulse rifles, submachine guns, and fusion rifles. Their ability to align with different elemental weaknesses makes them a vital part of any Guardian’s arsenal, especially when facing foes with specific elemental resistances or shields.</p>
+</div>
+
+<button class="accordion">Heavy Weapons</button>
+<div class="panel">
+  <p>Heavy weapons in Destiny 2 deliver the most devastating power, designed to deal significant damage to both large groups of enemies and high-priority targets. These weapons typically include rocket launchers, grenade launchers, and machine guns, and they are capable of delivering explosive or high-impact shots. Heavy weapons are best used in high-stakes scenarios where overwhelming firepower is needed, such as boss fights or clearing waves of enemies. Due to their power and limited ammo, managing their usage efficiently is crucial for success in challenging encounters.</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>
