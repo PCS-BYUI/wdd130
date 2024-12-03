@@ -43,9 +43,17 @@ body {
 
 .bodyimg2{
   border-radius: 10px;
-  grid-column: 1/2;
+  grid-column: 1/2;  
+  grid-row: 2/3;
   margin: 20px auto;
   max-height: 256px ;
+}
+
+.bodyimg3{
+  border-radius: 10px;
+  grid-column: 4/5;
+
+  margin: 20px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +68,7 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
-header {
+header, footer {
   padding: 1em;
   width: 100%;
   margin: 0 auto;
@@ -220,4 +228,12 @@ nav a:hover {
 }
 main{
   grid-column: 1/5;
+}
+footer > p{
+  color: #eec943;
+  align-items: center;
+}
+#footer_logo{
+  display: inline;
+  max-width: 75px;
 }
